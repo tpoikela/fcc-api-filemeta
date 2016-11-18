@@ -1,0 +1,6 @@
+{
+  "name": "File metadata service for FCC API projects",
+  "description": "When a user uploads a file, returns the size of the file.",
+  "repository": "https://github.com/tpoikela/fcc-api-filemeta",
+  "keywords": ["node", "express", "static"]
+}

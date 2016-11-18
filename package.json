@@ -1,0 +1,33 @@
+{
+  "name": "filemeta",
+  "version": "1.0.0",
+  "description": "File metadata service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tpoikela/fcc-api-filemeta.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "fcc"
+  ],
+  "author": "Tuomas Poikela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tpoikela/fcc-api-filemeta/issues"
+  },
+  "homepage": "https://github.com/tpoikela/fcc-api-filemeta#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "request": "^2.78.0"
+  }
+}
