@@ -35,10 +35,10 @@
   <h1>File metadata service</h1>
 
   <p>Select a file to upload:</p>
-  <form action="/fileupload" method="POST">
+  <form action="/fileupload" method="POST" enctype="multipart/form-data">
     <div class="form-group">
       <label for="file">File:</label>
-      <input type="file" class="form-control" id="file" name="fileupload">
+      <input type="file" id="file" name="fileupload">
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
