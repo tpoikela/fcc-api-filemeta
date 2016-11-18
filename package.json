@@ -23,7 +23,8 @@
   "homepage": "https://github.com/tpoikela/fcc-api-filemeta#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "mongodb": "^2.2.11"
+    "mongodb": "^2.2.11",
+    "multer": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
